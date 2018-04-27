@@ -1,0 +1,123 @@
+body{
+  height: 100%;
+  background-color: rgb(89, 94, 99);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  padding-top: 20px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-family: 'Titan One', cursive;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.center{
+  text-align: center;
+}
+
+.gamestatus{
+
+}
+
+.score{
+
+}
+
+.board{
+  width: 472px;
+  height:472px;
+  border-radius:100%;
+  position: relative;
+  text-align: center;
+  margin:auto;
+  /* background-color:#333; */
+  top:6vh;
+  /* box-shadow: 0px 0px 12px #222; */
+}
+
+.gamebtn {
+  border-radius: 50%;
+  transition: 0.1s;
+  -webkit-transition: 0.1s; /* Safari */
+  -moz-transition: 0.1s;
+}
+
+.gamebtn {
+  width: 200px;
+  height: 200px;
+  border-radius: 400px;
+}
+
+.hoversize{
+  width: 250px;
+  height: 250px;
+}
+
+.startbtn{
+  width:175px;
+  height:175px;
+  position : absolute;
+  border-radius:100%;
+  top:50%;
+  left:50%;
+  margin: -132px 0 0  -100px;
+  background-color:grey;
+  border: 12px solid #595E63;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.top{
+  border-bottom-right-radius : 100%;
+}
+
+.left{
+  border-bottom-left-radius : 100%;
+
+}
+
+.right{
+  border-top-left-radius : 100%;
+}
+
+.bottom{
+  border-top-right-radius : 100%;
+}
+
+#red{
+  background-color: rgb(244, 137, 138);
+
+}
+
+#green{
+  background-color: rgb(133, 229, 194);
+}
+
+#yellow{
+  background-color: rgb(249, 215, 129);
+
+}
+
+#blue{
+  background-color: rgb(136, 181, 226);
+}
+
+#litred{
+  background-color: rgb(252, 196, 196);
+}
+
+#litgreen{
+  background-color: rgb(204, 255, 236);
+}
+
+#lityellow{
+  background-color: rgb(255, 242, 211);
+}
+
+#litblue{
+  background-color: rgb(219, 236, 252);
+}
